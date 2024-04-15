@@ -1,0 +1,24 @@
+<?php
+    $nome = "Welliana Carvalho";
+    $idade = 23;
+    $peso = 75;
+    $altura = 1.75;
+    $grau = "Ensino Superior em TI";
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 01</title>
+</head>
+<body>
+    <h1> <?php echo $nome; ?></h1>
+    <p> Idade: <?php echo $idade; ?> </p>
+    <p> Peso: <?php echo $peso; ?> </p>
+    <p> Altura: <?php echo $altura; ?> </p>
+    <p> Grau de escolaridade: <?php echo $grau; ?> </p>
+
+</body>
+</html>
